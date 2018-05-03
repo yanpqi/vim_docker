@@ -68,6 +68,8 @@ set history=1000
 set hlsearch
 set incsearch
 
+noremap <silent> <F9> :A<CR>
+
 source ~/.vim/settings/color.conf
 source ~/.vim/settings/gtag.conf
 source ~/.vim/settings/lookupfile.conf
